@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <form name="myform" onsubmit="valida()">
+
+        ENTER YOUR NAME : <input type="text" name="n" id="" placeholder="USERNAME">
+        <br><br>
+
+        ENTER YOUR PASSWORD : <input type="text" name="p" id="" placeholder="PASSWORD">
+        <br><br>
+
+        <input type="submit" value="submit">
+    </form>
+    
+  
+</body>
+<script>
+
+
+function valida(){
+
+    let nam = document.forms["myform"]['n'].value;
+    let pass = document.forms["myform"]['p'].value;
+
+    if (nam==""){
+        alert("Name must filled out...!!!")
+    }
+
+    else if(pass==""){
+        alert("password must be filled out...!!!")
+    }
+
+    else{
+        alert("submitted")
+    }
+}
+
+function symbol(){
+    let x= document.getElementById("passsss")
+    x.value= x.value.symbol();
+}
+
+
+</script>
+</html>
