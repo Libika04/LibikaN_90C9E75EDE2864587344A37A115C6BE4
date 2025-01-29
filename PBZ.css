@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.h1{
+    font-size: 50px;
+}
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.home{
+    display: flex;
+    position: sticky;
+    justify-content: left;
+    
+}
+.navbar{
+    display: flex;
+    display: inline-block;
+    font-style: italic;
+   
+
+
+}
+.img{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+p{
+    border: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: dashed;
+}
+p::first-letter{
+    font-size: xx-large;
+    
+}
+.container{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.point2 ul li{
+    list-style: disc;
+}
+.point ul li{
+    list-style: disc;
+}
+.company ul li{
+    display: flex;
+    font-style: oblique;
+    margin-right: 20px;
+}
+.company ul{
+    display: flex;
+}
+.links ul li{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 20px;
+    justify-content: center;
+}
+.links ul{
+    display: flex;
+}
+.navbar:hover{
+    color: aqua;
+}
+
+
+    
